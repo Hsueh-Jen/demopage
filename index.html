@@ -6,15 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="vendor/jquery-3.2.1.min.js"></script>
+    <script src="vendor/bootstrap.min.js"></script>
+    <link href="vendor/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="main.css" rel="stylesheet" type="text/css">
-    <title>HTML範本</title>
+    <title>個人網站範例</title>
 </head>
 
 <body>
-    <!-- 在body裡面寫html的程式 -->
 
-    <h1>HTML範本</h1>
-    <img src="./images/nian.jpg" alt="這是一張年獸的圖片">
+    <div class="header">
+        <h1>學仁大大的網站</h1>
+        <p>這是我為了學生而做的網站，我真的好用心</p>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class='col-md-5'></div>
+            <div class='col-md-2'>
+                <img src="images/avatar.jpg" class=" img-fluid circle" alt="">
+                <p>
+                    <h4 class="text-align">學仁大大</h4>
+                    我會寫程式，我愛畫畫
+                    <br>
+                    <br>
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class='col-md-2'></div>
+            <div class='col-md-8' id='intro-column'>
+                <p>
+                    我是學仁大大，我在橘子蘋果教程式設計，我除了會製作Scratch專案，還會撰寫Javascript程式，我喜歡用這些程式語言來開發有趣的遊戲跟網站。
+                </p>
+                <p>
+                    另外，我也喜歡畫畫，在我大學三年級升大四的暑假，買了人生的第一張電腦繪圖板，從此之後我都會用電繪板畫畫跟做動畫，以下是我的程式跟繪畫作品，還迎各位參觀。
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container">
+        <div class="row" style="text-decoration: none;">
+            <div class='col-md-4'>
+                <a href='https://scratch.mit.edu/studios/3874311/' target='_blank' class="portfolio">
+                    <h1>Scratch作品集</h1>
+                    <hr>
+                    <img src="images/scratch.jpg" class='img-fluid' alt="">
+                </a>
+            </div>
+            <div class='col-md-4'>
+                <a href='https://hsueh-jen.github.io/star-maker/' target='_blank' class="portfolio">
+                    <h1>地方明星產生器</h1>
+                    <hr>
+                    <img src="images/star.jpg" class='img-fluid' alt="">
+                </a>
+            </div>
+            <div class='col-md-4'>
+                <a href='https://line.me/S/sticker/1544423' target='_blank' class="portfolio">
+                    <h1>Line貼圖</h1>
+                    <hr>
+                    <img src="images/line.jpg" class='img-fluid' alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class='footer'>
+        <div class='container'>
+            <div class="row">
+                網站設計：學仁大大 |
+                <a href="mailto:allenwang015@gmail.com"> 聯絡我</a>
+            </div>
+        </div>
+    </footer>
 
     <script src="main.js"></script>
 </body>
