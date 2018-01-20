@@ -1,83 +1,108 @@
 /* 在這邊寫css */
+.text-center{
+    text-align: center;
+}
 
-*{
+.text-white{
+    color: white;
+}
+
+* {
     font-family: Microsoft Jhenghei;
 }
 
-.portfolio{
-    color:black;
+body {
+    background: #364F6B;
+}
+
+
+
+#portfolio-column {
+    padding: 50px 0 50px 0;
+    background: #3FC1C9;
+}
+
+.portfolio {
+    background: #F5F5F5;
+    color: black;
     min-height: 300px;
-    padding:20px;
-    border: #9b9b9b solid 1px;
+    padding: 20px;
+    border: #364F6B solid 1px;
     margin: 2px;
-    border-radius:10px;
+    border-radius: 10px;
     cursor: pointer;
     display: block;
 }
 
 .portfolio:link {
-    color:black;
+    color: black;
     text-decoration: none;
 }
 
 .portfolio:visited {
-    color:black;
+    color: black;
     text-decoration: none;
 }
 
 .portfolio:hover {
-    color:black;
-    border: #95d5e9 solid 3px;
+    color: black;
+    border: #FC5185 solid 3px;
     text-decoration: none;
 }
 
 .portfolio:active {
-    color:black;
+    color: black;
     text-decoration: none;
 }
 
-
-.header{
-    padding:50px;
+.header {
+    padding: 50px;
     min-height: 300px;
     background: url('images/cover.jpg');
     margin-bottom: 50px;
 }
 
-.circle{
+.circle {
     border-radius: 50%;
+    border: #F5F5F5 solid 3px;
 }
 
-.text-align{
-    text-align: center;
-}
 
-#intro-column{
-    background: lightgoldenrodyellow;
+#intro-column {
+    background: #F5F5F5;
     margin-bottom: 50px;
     border-radius: 10px;
-    box-shadow: 5px 5px rgb(216, 216, 168);
-    padding:20px;
+    box-shadow: 5px 5px #C5C5C5;
+    padding: 20px;
 }
 
-.footer{
-    margin-top:40px;
-    padding:10px;
-  background:rgb(221, 221, 221);   
+.footer {
+    padding: 10px;
+    background: #FC5185;
+    color: #F5F5F5;
 }
 
-.yellow{
+.footer a{
+    color:#364F6B;
+    text-decoration: underline;
+}
+
+.yellow {
     background: lightyellow;
 }
 
-.blue{
+.blue {
     background: lightblue;
 }
 
-.gray{
+.gray {
     background: #e9ecef;
 }
 
-.orange{
-    background: SandyBrown ;
+.orange {
+    background: SandyBrown;
+}
+
+.white{
+    background: white;
 }
